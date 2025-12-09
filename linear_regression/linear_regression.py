@@ -5,7 +5,7 @@ from tensorflow.keras.layers import Dense, Input
 from tensorflow.keras import Sequential
 from tensorflow.keras.losses import MeanSquaredError, BinaryCrossentropy
 from tensorflow.keras.activations import sigmoid
-from neurons_utils import plt_prob_1d, sigmoidnp, plt_linear, plt_logistic
+from linear_regression.neurons_utils import plt_prob_1d, sigmoidnp, plt_linear, plt_logistic
 import logging
 import visualkeras
 logging.getLogger("tensorflow").setLevel(logging.ERROR)
